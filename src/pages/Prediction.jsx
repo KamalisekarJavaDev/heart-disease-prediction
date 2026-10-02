@@ -106,7 +106,7 @@ function Prediction() {
       const dataToSend = convertData();
 
       const response = await fetch(
-        "http://127.0.0.1:8000/predict",
+  "https://heart-disease-api-v8m4.onrender.com/predict",
         {
           method: "POST",
           headers: {
